@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 3 : Identifier les Sources Fiables</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+<body>
+    <div id="mission3">
+        <h2>Mission 3 : Identifier les Sources Fiables</h2>
+		 <p>
+			<p>Parmi les sources suivantes, lesquelles sont fiables pour obtenir des informations sur les vaccins ?</p>
+        <form id="sources-form">
+            <label>
+                <input type="checkbox" name="source1"> Organisation Mondiale de la Santé (OMS)
+            </label><br>
+            <label>
+                <input type="checkbox" name="source2"> Blog personnel d'un amateur de santé
+            </label><br>
+            <label>
+                <input type="checkbox" name="source3"> Ministère de la Santé
+            </label><br>
+            <label>
+                <input type="checkbox" name="source4"> Chaîne YouTube sans qualification médicale
+            </label><br>
+        </form>
+			<ul class="menu">
+		  </li>
+			  <li><a href="#">indice</a>
+				<ul class="sousmenu">
+				  <li><a href="#">il y a deux bonnes réponses</a></li>
+				</ul>
+			  </li>
+		  </ul>
+        </p>
+            <button type="button" onclick="checkSources()">Vérifier</button>
+            <p id="resultats-sources"></p>
+        </form>    
+        <a href="mission2.html">Retour</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+

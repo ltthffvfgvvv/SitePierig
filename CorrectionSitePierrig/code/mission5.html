@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 5</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+<body>
+    <div id="mission5">
+        <h2>Mission 5 : Les dangers sur la population</h2>
+        <p>Identifiez les affirmations fausses pour les signaler.</p>
+        <form id="quiz">
+            <label>
+                <input type="checkbox" name="question1"> Les théories du complots créent une polarisation sociale
+            </label><br>
+            <label>
+                <input type="checkbox" name="question2"> Les théories du complot permettent de se préparer face à l'attaque des extraterretres
+            </label><br>
+            <label>
+                <input type="checkbox" name="question3"> Les théories instaurent un climat de méfiance
+            </label><br>
+            <label>
+                <input type="checkbox" name="question4"> Les complotistes cherchent une réponse rationnelle à quelque chose qui les dépassent et sont prêts à croire n'importe quoi
+            </label><br>
+            <button type="button" onclick="checkResponse()">Vérifier</button>
+            <p id="quiz-result"></p>
+        </form>
+        <a href="../index.html">Retour au menu</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

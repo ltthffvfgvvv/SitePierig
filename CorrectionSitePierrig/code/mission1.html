@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 1</title>
+    <link rel="stylesheet" href="stylesindex.css">
+	<script src="script.js"></script>
+	<style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#mission1 {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#quiz-result {
+    margin-top: 20px;
+    font-weight: bold;
+}</style>
+	<script src="script.js"></script>
+</head>
+<body>
+    <div id="mission1">
+        <h2>Mission 1 : Démasquer les Fausses Informations</h2>
+        <p>Identifiez les affirmations fausses pour les signaler.</p>
+        <form id="quiz-form">
+            <label>
+                <input type="checkbox" name="question1"> Les vaccins modifient l'ADN des individus vaccinés.
+            </label><br>
+            <label>
+                <input type="checkbox" name="question2"> Les vaccins contre le COVID-19 contiennent des puces électroniques pour suivre les gens.
+            </label><br>
+            <label>
+                <input type="checkbox" name="question3"> Les vaccins contre le COVID-19 ont été approuvés après des essais cliniques rigoureux.
+            </label><br>
+            <label>
+                <input type="checkbox" name="question4"> Les vaccins sont une méthode efficace pour prévenir les maladies infectieuses.
+            </label><br>
+            <button type="button" onclick="checkQuiz()">Vérifier</button>
+            <p id="quiz-result"></p>
+        </form>
+        <a href="../index.html">Retour</a>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

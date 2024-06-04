@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="code/styles.css">
+	<script src="code/script.js"></script>
+	
+</head>
+<body>
+    <div id="home-screen">
+        <h1>Bienvenue dans le jeu de débusquage des fausses informations sur les vaccins</h1>
+        <button onclick="startGame()">Commencer la mission</button>
+        <button onclick="showInstructions()">Instructions</button>
+    </div>
+    <div id="instruction-screen" style="display: none;">
+        <h2>Instructions</h2>
+        <p>Cliquez sur les boutons ci-dessous pour commencer les missions.</p>
+        <button onclick="showHome()">Retour à l'accueil</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#home-screen, #instruction-screen, #game-screen {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+}
+.menu {
+    height: 60px;
+    list-style: none;
+    padding: 20px;
+	text-align:center;
+	padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.menu li {
+    text-align:center;
+    width: 200px;
+	padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: white;
+	float:left;
+	
+}
+
+.menu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    background: #293245;
+    padding: 6px 10px;
+    border-right: 1px solid #FFF;
+    text-align: center;
+    text-decoration: none;
+	
+}
+
+.menu li a:hover {background-color: #199BD2;}
+.menu li a:active {background-color: #808080;}
+
+.menu .sousmenu {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.menu .sousmenu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu .sousmenu li a:link, .menu li a:visited {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #808080;
+}
+
+.menu .sousmenu li a:hover {
+    background-color: #199BD2;
+}
+
+.menu li:hover .sousmenu {
+    display: block;
+}
+
+
+
